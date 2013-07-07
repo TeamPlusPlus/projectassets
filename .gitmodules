@@ -1,0 +1,3 @@
+[submodule "vendor/podlove"]
+	path = vendor/podlove
+	url = https://github.com/podlove/podlove-web-player
