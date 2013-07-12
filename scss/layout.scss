@@ -42,7 +42,7 @@ header {
 		top: 4px;
 		z-index: 120;
 		
-		span {
+		.links {
 			position: absolute;
 			z-index: 110;
 			top: -10px;
@@ -64,6 +64,15 @@ header {
 			z-index: 120;
 			line-height: 1;
 		}
+	}
+	.thanks {
+		position: fixed;
+		top: 20%;
+		right: 10%;
+		font-size: 80px;
+		z-index: 100000;
+		
+		transform: rotate(-10deg);
 	}
 	.nav {
 		min-height: 50px;

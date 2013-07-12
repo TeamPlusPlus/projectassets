@@ -58,10 +58,17 @@ hr {
 		box-shadow: 0 0 10px gray;
 	}
 	
-	&:hover span {
+	&:hover span, &:hover + .thanks {
 		opacity: 1;
 	}
 }
+.thanks {
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+	
+	text-shadow: #444 0 0 15px;
+}
+
 nav {
 	box-shadow: 0 10px 10px -10px gray;
 	
