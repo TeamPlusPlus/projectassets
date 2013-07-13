@@ -56,6 +56,14 @@ hr {
 		border-radius: 3px;
 		
 		box-shadow: 0 0 10px gray;
+		
+		a {
+			border-bottom: 1px solid #ddd;
+			
+			&:last-child {
+				border: none;
+			}
+		}
 	}
 	
 	&:hover span, &:hover + .thanks {
