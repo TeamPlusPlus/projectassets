@@ -200,6 +200,10 @@ section.main {
 	}
 	
 	.episode {
+		&.teaser {
+			min-height: 215px;
+		}
+		
 		clear: left;
 		position: relative;
 		margin-bottom: 60px;
