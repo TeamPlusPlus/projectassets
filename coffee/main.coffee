@@ -5,8 +5,8 @@ $(document).ready(()->
 	
 	# Click handler
 	loadFromLink = ()->
-		if($(this).parents().hasClass('feed'))
-			# Is a feed link
+		if($(this).parents().hasClass('feed') || $(this).hasClass('file'))
+			# Is a direct link to a file/feed
 			return true;
 		
 		load($(this).attr('href'));
