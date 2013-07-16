@@ -1,0 +1,75 @@
+/*
+ * Feed dropdown
+ * @file     feed.scss
+ * @author   Lukas Bestle <http://lu-x.me>
+ */
+
+.feed {
+	position: fixed;
+	left: 25px;
+	top: 4px;
+	z-index: 120;
+	
+	.links {
+		position: absolute;
+		z-index: 110;
+		top: -10px;
+		left: -12px;
+		
+		padding-top: 60px;
+		padding-bottom: 3px;
+		
+		text-align: center;
+		
+		a {
+			display: block;
+			line-height: 1.45;
+			padding: 2px 10px;
+		}
+	}
+	
+	&:before {
+		font-size: 35px;
+		z-index: 120;
+		line-height: 1;
+	}
+	
+	span {
+		opacity: 0;
+		transition: opacity 0.2s ease-in-out;
+		
+		@include bgimage("light_wool");
+		background-attachment: fixed;
+		
+		border-radius: 3px;
+		
+		box-shadow: 0 0 10px gray;
+		
+		a {
+			border-bottom: 1px solid #ddd;
+			
+			&:last-child {
+				border: none;
+			}
+		}
+	}
+	
+	&:hover span, &:hover + .thanks {
+		opacity: 1;
+	}
+}
+
+.thanks {
+	position: fixed;
+	top: 20%;
+	right: 10%;
+	font-size: 80px;
+	z-index: 100000;
+	
+	transform: rotate(-10deg);
+	
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+	
+	text-shadow: #444 0 0 15px;
+}

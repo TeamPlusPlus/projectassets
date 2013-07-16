@@ -1,19 +1,15 @@
 /*
- * Styles for the Team++ website
+ * Main styles file includer
  * @file     main.scss
  * @author   Lukas Bestle <http://lu-x.me>
- * @created  28.03.2013 22:05
- * @updated  16.07.2013 12:50
  */
 
 @import "../../brand";
-@import "_vars";
-@import "_mixins";
-@import "reset";
+@import "../base/scss/main";
 
-@import "fonts";
-
-@import "layout";
-@import "design";
+@import "episode";
+@import "feed";
+@import "sidebar";
+@import "other";
 
 @import "responsive";

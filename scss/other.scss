@@ -1,0 +1,24 @@
+/*
+ * Other custom stuff
+ * @file     other.scss
+ * @author   Lukas Bestle <http://lu-x.me>
+ */
+
+// Hide responsive logo (only show when on small device)
+header .center {
+	display: none;
+}
+
+// Space for sidebar
+section.main {
+	margin-left: 19%;
+	margin-right: 0;
+}
+
+// Fix navigation by default
+header nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}

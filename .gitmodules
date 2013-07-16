@@ -1,3 +1,6 @@
 [submodule "vendor/podlove"]
 	path = vendor/podlove
 	url = https://github.com/podlove/podlove-web-player
+[submodule "base"]
+	path = base
+	url = https://github.com/TeamPlusPlus/baseassets

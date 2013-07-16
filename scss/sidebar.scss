@@ -1,0 +1,57 @@
+/*
+ * Sidebar
+ * @file     sidebar.scss
+ * @author   Lukas Bestle <http://lu-x.me>
+ */
+
+aside {
+	position: fixed;
+	left: 30px;
+	width: 15%;
+	top: 80px;
+	bottom: 0;
+	
+	line-height: 1.45;
+	
+	h2, h2 * {
+		font-family: Code;
+		font-size: 15px;
+		color: black;
+	}
+	
+	.episode span {
+		font-family: Code;
+	}
+	
+	.logo img {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	img {
+		width: 100%;
+		height: auto;
+	}
+	
+	h2 {
+		margin-top: 20px;
+	}
+	
+	.donate {
+		margin-top: 20px;
+		
+		iframe, form {
+			float: left;
+		}
+		form {
+			padding-top: 15px;
+			margin-left: 5px;
+			display: inline;
+			width: 0;
+		}
+	}
+	
+	[data-icon]:before {
+		color: black;
+	}
+}

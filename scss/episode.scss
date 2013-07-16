@@ -1,0 +1,85 @@
+/*
+ * Episode detail view and overview
+ * @file     episode.scss
+ * @author   Lukas Bestle <http://lu-x.me>
+ */
+
+section.main .episode {
+	&.teaser {
+		min-height: 215px;
+	}
+	
+	clear: left;
+	position: relative;
+	margin-bottom: 60px;
+	
+	.shownotes {
+		clear: left;
+	}
+	
+	h3 {
+		margin-top: 15px;
+		font-size: 20px;
+	}
+	
+	img.episodelogo {
+		float: left;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+	
+	&.float {
+		display: inline;
+		width: auto;
+		padding: 0;
+		margin: 0;
+		
+		img {
+			width: 12.5%;
+			padding: 0;
+			padding-right: 5px;
+			padding-bottom: 5px;
+			margin: 0;
+			height: auto;
+		}
+	}
+	
+	.player {
+		clear: both;
+		h3 {
+			font-family: Code;
+			font-size: 15px;
+			color: black;
+			margin-top: 5px;
+		}
+		
+		.bigplay {
+			width: 75px;
+			height: 75px;
+		}
+		
+		.podlovewebplayer_wrapper .togglers a.pwp-icon-download {
+			display: inline !important;
+		}
+		
+		.podlovewebplayer_downloadbuttons select {
+			margin-right: 0;
+		}
+		
+		.podlovewebplayer_downloadbuttons .fileinfobutton {
+			display: none !important;
+		}
+	}
+	
+	.intro * {
+		font-size: 17px;
+		margin-top: 5px;
+	}
+}
+
+// Flattr buttons
+.flattrtop {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
