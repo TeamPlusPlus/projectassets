@@ -3,7 +3,7 @@
  * @file     design.scss
  * @author   Lukas Bestle <http://lu-x.me>
  * @created  28.03.2013 22:28
- * @updated  29.03.2013 22:20
+ * @updated  16.07.2013 12:50
  */
 
 // General design elements
@@ -150,14 +150,6 @@ aside {
 		font-family: Code;
 		font-size: 15px;
 		color: black;
-	}
-	
-	.highlight {
-		color: #C10000;
-		
-		&:hover {
-			color: #920000;
-		}
 	}
 	
 	.episode span {
