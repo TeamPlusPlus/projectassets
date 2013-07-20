@@ -8,6 +8,7 @@ aside {
 	position: fixed;
 	left: 30px;
 	width: 15%;
+	max-width: 180px;
 	top: 80px;
 	bottom: 0;
 	
@@ -54,4 +55,10 @@ aside {
 	[data-icon]:before {
 		color: black;
 	}
+}
+
+// Space for sidebar
+section.main {
+	margin-left: 17.5%;
+	margin-right: 0;
 }

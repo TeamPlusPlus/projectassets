@@ -4,11 +4,33 @@
  * @author   Lukas Bestle <http://lu-x.me>
  */
 
+// Space between sidebar and content is too big
+@media screen and (min-width: 1300px) {
+	section.main {
+		margin-left: 220px;
+	}
+}
+
 // Episode previews are too small
+// Sidebar donate buttons are too wide
 @media screen and (max-width: 1150px) {
 	.episode.float {
 		img {
 			width: 25% !important;
+		}
+	}
+	
+	.donate {
+		* {
+			float: none !important;
+			margin: auto;
+		}
+		
+		iframe {
+			margin-left: 45px;
+		}
+		form {
+			margin-left: 23px !important;
 		}
 	}
 }
@@ -16,10 +38,10 @@
 // Sidebar is too narrow
 @media screen and (max-width: 900px) {
 	aside {
-		width: 200px;
+		width: 180px;
 	}
 	section.main {
-		margin-left: 250px;
+		margin-left: 220px;
 	}
 }
 
