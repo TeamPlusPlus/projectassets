@@ -56,6 +56,7 @@
 	aside {
 		position: static;
 		width: auto;
+		max-width: none;
 		text-align: center;
 		
 		.logo {
@@ -77,6 +78,10 @@
 		img {
 			width: 49% !important;
 		}
+	}
+	
+	.infos img {
+		width: auto;
 	}
 	
 	.feed {

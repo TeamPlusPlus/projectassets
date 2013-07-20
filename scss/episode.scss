@@ -9,6 +9,11 @@ section.main .episode {
 	position: relative;
 	margin-bottom: 60px;
 	
+	.infos img {
+		height: 12px;
+		padding-right: 2px;
+	}
+	
 	.shownotes {
 		clear: left;
 	}
