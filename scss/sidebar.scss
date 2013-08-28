@@ -55,6 +55,14 @@ aside {
 	[data-icon]:before {
 		color: black;
 	}
+	
+	.highlight {
+		color: #C10000;
+		
+		&:hover {
+			color: #8D0000;
+		}
+	}
 }
 
 // Space for sidebar
